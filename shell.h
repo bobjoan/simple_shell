@@ -7,11 +7,12 @@
 #include <unistd.h>
 #include <fcntl.h>
 
-int takeInput(char *input, size_t size);
+void takeInput(char *input, size_t size);
 void print_prompt(void);
 void parseSpace(char *str, char **parsed);
 void exec(char **argv);
 void read_input(char *str);
+void infiniteLoop(void);
 void display_prompt(void);
 
 #endif
